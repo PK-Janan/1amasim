@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+
+int main()
+
+{
+	int a, b;
+	char opt;
+	cout<<"enter the first number : "<<endl;
+	cin>>a;
+	
+	cout<<"enter the second number : "<<endl;
+	cin>>b;
+	
+	cout<<"enter operation +  or  -  or  *  /  : "<<endl;
+	cin>>opt;
+	
+	if ( opt== '+')
+	cout<<"sum = " << a+b <<endl;
+	
+	else if ( opt== '-')
+	cout<<"sub = " << a-b <<endl;
+	
+	else if ( opt== '*')
+	cout<<"Mul = " << a*b <<endl;
+	
+	else if ( opt== '/')
+	cout<<"Div = " << a/b <<endl;
+	
+	else 
+	cout<<"you put wrong values " <<endl;
+	
+	
+	return 0;
+}
